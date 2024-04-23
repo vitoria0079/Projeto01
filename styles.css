@@ -9,10 +9,11 @@ body{
     color: rgb(139, 0, 74);
     text-align: inherit;
     background-color: rgb(255, 229, 241);
+    background-image: url(img/flor\ png.png);
 }
 
 #cabecalho{
-    height: 200px;
+    height:150px;
     background-color:rgb(255, 195, 225);
     width: 95%;
     margin: 0 auto;
@@ -28,7 +29,7 @@ body{
 
 #lado1{
     height: 500px;
-    width: 300px;
+    width: 330px;
     background-color:rgb(222, 143, 193);
     float: left;
     margin-left: 37px;
@@ -47,7 +48,7 @@ body{
 
 #lado2{
     height: 500px;
-    width: 290px;
+    width: 304px;
     background-color: rgb(222, 143, 193);
     float: left;
     margin-top: 10px;
@@ -71,7 +72,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     top: 40px;
-    text-align: inherit;
+    text-align: center;
 }
 
 #tradicao{
@@ -88,7 +89,7 @@ body{
     clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    text-align: inherit;
+    text-align: center;
     font-size: 25px;
     top: 60px;
 }
@@ -105,7 +106,7 @@ body{
     clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    text-align: inherit;
+    text-align: center;
     font-size: 25px;
     top: 90px;
 }
@@ -113,15 +114,10 @@ body{
 
 #imagem1{
     position: relative;
-    left: 320px;
+    left: 350px;
     top: 120px;
-    transition: transform 1s;
-    transform: scale(1);
 }
 
-#imagem1:hover{
-    transform: scale(0.8);
-}
 
 #casa{
     color: rgb(139, 0, 74);
@@ -135,22 +131,17 @@ body{
     clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    text-align: inherit;
+    text-align: center;
     font-size: 25px;
     top: 170px;
 }
 
 #imagem3{
     position: relative;
-    left: 320px;
+    left: 350px;
     top: 190px;
-    transition: transform 1s;
-    transform: scale(1);
 }
 
-#imagem3:hover{
-    transform: scale(0.8);
-}
 
 #japao{
     color: rgb(139, 0, 74);
@@ -164,7 +155,7 @@ body{
     clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    text-align: inherit;
+    text-align: center;
     font-size: 25px;
     top: 210px;
 }
@@ -203,15 +194,10 @@ body{
 
 #imagem4{
     position: relative;
-    left: 320px;
+    left: 350px;
     top: 300px;
-    transition: transform 1s;
-    transform: scale(1);
 }
 
-#imagem4:hover{
-    transform: scale(0.8);
-}
 
 #rodape{
     height: 100px;
@@ -245,10 +231,10 @@ body{
 #sakura{
     position: relative;
     bottom:390px;
-    left:1000px;
+    left:1020px;
 }
 
 #sakura2{
     position: relative;
-    bottom:800px;
+    bottom:700px;
 }
