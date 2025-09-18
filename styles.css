@@ -77,7 +77,7 @@ body{
 #sobre{
     clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    /* font-size: 25px; */
     top: 40px;
     text-align: center;
 }
@@ -86,7 +86,7 @@ body{
     color: rgb(139, 0, 74);
     position: relative;
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     top: 40px;
 }
 
@@ -97,7 +97,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     text-align: center;
-    font-size: 25px;
+    /* font-size: 25px; */
     top: 60px;
 }
 
@@ -105,7 +105,7 @@ body{
     color: rgb(139, 0, 74);
     position: relative;
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     top: 80px;
 }
 
@@ -114,7 +114,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     text-align: center;
-    font-size: 25px;
+    /* font-size: 25px; */
     top: 90px;
 }
 
@@ -130,7 +130,7 @@ body{
     color: rgb(139, 0, 74);
     position: relative;
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     top: 160px;
 }
 
@@ -139,7 +139,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     text-align: center;
-    font-size: 25px;
+    /* font-size: 25px; */
     top: 170px;
 }
 
@@ -154,7 +154,7 @@ body{
     color: rgb(139, 0, 74);
     position: relative;
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     top: 200px;
 }
 
@@ -163,14 +163,14 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     text-align: center;
-    font-size: 25px;
+    /* font-size: 25px; */
     top: 210px;
 }
 
 #patrimonio{
     position: relative;
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     top: 230px;
 }
 
@@ -179,14 +179,14 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     text-align:center;
-    font-size: 25px;
+    /* font-size: 25px; */
     top: 240px;
 }
 
 #roupa{
     position: relative;
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     top: 260px;
 }
 
@@ -195,7 +195,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     text-align:center;
-    font-size: 25px;
+    /* font-size: 25px; */
     top: 270px;
 }
 
@@ -226,7 +226,7 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    /* font-size: 16px; */
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -244,4 +244,57 @@ body{
 #sakura2{
     position: relative;
     bottom:700px;
+}
+
+#controle-fonte {
+
+  position: fixed; /* Fixa a posição da caixa na tela, mesmo quando rolar a página */
+
+  top: 68px; /* Distância de 80px do topo da página */
+
+  right: 20px; /* Distância de 20px da borda direita da página */
+
+  background-color: #fff; /* Fundo branco para a caixa */
+
+  border: 1px solid #ccc; /* Borda cinza clara em volta da caixa */
+
+  border-radius: 8px; /* Bordas arredondadas para deixar a caixa com cantos suaves */
+
+  padding: 10px; /* Espaçamento interno de 10px dentro da caixa */
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra leve para dar efeito de elevação */
+
+  z-index: 1000; /* Garante que o controle fique acima de outros elementos na tela */
+
+}
+
+
+
+/* Estilo para os botões dentro do controle de fonte */
+
+#controle-fonte button {
+
+  background-color: #6f4e37; /* Cor de fundo dos botões (tom de café) */
+
+  color: #fff; /* Cor da fonte dos botões (branca) */
+
+  border: none; /* Remove a borda padrão dos botões */
+
+  margin: 2px; /* Margem externa de 2px entre os botões */
+
+  padding: 8px 12px; /* Espaçamento interno (8px em cima/baixo, 12px nas laterais) */
+
+  font-size: 18px; /* Tamanho da fonte dos botões */
+
+  border-radius: 5px; /* Bordas arredondadas nos botões */
+
+  cursor: pointer; /* Mostra a mãozinha ao passar o mouse, indicando que é clicável */
+
+}
+
+
+#controle-fonte button:hover {
+
+  background-color: #5a392a; 
+
 }
